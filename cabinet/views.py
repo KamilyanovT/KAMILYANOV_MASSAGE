@@ -15,8 +15,13 @@ class MainView(View):
     def get(self, request):
         form = AppointmentForm()
         masters = Master.objects.all()
+        services = Service.objects.all()
 
-        return render(request, "main.html", {"form": form, "masters": masters})
+        return render(
+            request,
+            "main.html",
+            {"form": form, "masters": masters, "services": services},
+        )
 
     def post(self, request):
         form = AppointmentForm(request.POST)
