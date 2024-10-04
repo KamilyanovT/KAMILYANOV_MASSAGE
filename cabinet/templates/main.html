@@ -1,10 +1,6 @@
 {% extends "base.html" %} 
+{% load static%}
 {% block header %}
-<div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-  <div class="wave"></div>
-</div>
 <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Массажный кабинет "KAMILYANOV_MASSAGE"</a>
@@ -89,17 +85,10 @@
       </ol>
     </section>
 
-    <section id="reviews" class="col-12 mb-4">
-      <h2>Отзывы</h2>
-      <p>
-        Наша работа говорит за нас, но отзывы наших клиентов говорят еще лучше. Ребята с района, деловые мужчины и стильные джентльмены — все заходят в "Арбуз" и выходят счастливыми и довольными. Нас хвалят за профессионализм, душевный прием и уникальную атмосферу, которую так сложно найти в современном мире. Присоединяйтесь к нашим постоянным клиентам, и, возможно, следующий отзыв напишете именно вы!
-      </p>
-    </section>
-
     <section id="orderForm" class="col-12 mb-4">
-      <h2>Запись на стрижку</h2>
+      <h2>Запись на массаж</h2>
       <p>
-        Хотите выглядеть как миллионы долларов? Не откладывайте возможность проявить себя — запишитесь на стрижку прямо сейчас! Наши мастера ждут вас, чтобы создать образ, который заставит вас сиять. Заполните форму, выберите удобное для вас время и приходите — остальное мы возьмем на себя!
+        Хотите выглядеть чувствовать себя здоровым и полным сил? Не откладывайте возможность — запишитесь на массаж прямо сейчас! Наши мастера ждут вас. Заполните форму — остальное мы возьмем на себя!
       </p>
       <form action="" method="post">
         {% csrf_token %}
@@ -111,40 +100,6 @@
   </div>
 </div>
 
-<script>
-  async function fetchServices(masterId) {
-      const url = `/get_services_by_master/${masterId}/`; 
-      const response = await fetch(url);
-      const data = await response.json();
-      return data.services;
-  }
-  
-  function updateServiceOptions(services) {
-      const serviceSelect = document.getElementById("id_services");
-  
-      serviceSelect.innerHTML = "";
-  
-      services.forEach(function (service) {
-          const option = document.createElement("option");
-          option.value = service.id;
-          option.text = service.name;
-          serviceSelect.appendChild(option);
-      });
-  }
-  
-  function setupServiceSelectListener() {
-      const masterSelect = document.getElementById("id_master");
-      
-      masterSelect.addEventListener("change", async function () {
-          const masterId = masterSelect.value;
-          const services = await fetchServices(masterId);
-          updateServiceOptions(services);
-      });
-  }
-  
-  document.addEventListener("DOMContentLoaded", function () {
-      setupServiceSelectListener();
-  });
-  </script>
+<script type="text/javascript" src={% static "js/form.js" %}></script>
 
 {% endblock %}
