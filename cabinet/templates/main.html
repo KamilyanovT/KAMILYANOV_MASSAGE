@@ -1,5 +1,6 @@
 {% extends "base.html" %} 
 {% load static%}
+<link rel="stylesheet" href="{% static 'css\menu.css' %}" />
 {% block header %}
 <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
   <div class="container-fluid">
@@ -101,5 +102,21 @@
 </div>
 
 <script type="text/javascript" src={% static "js/form.js" %}></script>
+<script>
+let menuItems = document.getElementsByClassName('nav-link');
+let onClick = function (event) {
+	event.preventDefault();
+  
+  for (let i = 0; i < menuItems.length; i++) {
+    menuItems[i].classList.remove('active');
+	}
+  
+  event.currentTarget.classList.add('active');
+};
+
+for (let i = 0; i < menuItems.length; i++) {
+    menuItems[i].addEventListener('click', onClick, false);
+}
+</script>
 
 {% endblock %}
