@@ -3,11 +3,11 @@
   "model": "admin.logentry",
   "pk": 1,
   "fields": {
-    "action_time": "2024-10-02T11:42:54.337Z",
+    "action_time": "2024-10-06T13:56:05.389Z",
     "user": 1,
     "content_type": 7,
     "object_id": "1",
-    "object_repr": "Окрашивание волос",
+    "object_repr": "КЛАССИЧЕСКИЙ МАССАЖ \"ТАЛАССО\"",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -16,11 +16,11 @@
   "model": "admin.logentry",
   "pk": 2,
   "fields": {
-    "action_time": "2024-10-02T11:43:06.147Z",
+    "action_time": "2024-10-06T13:56:34.714Z",
     "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Анзор Чумаев",
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "ТАЙСКИЙ ТРАДИЦИОННЫЙ МАССАЖ СТОП",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -29,11 +29,11 @@
   "model": "admin.logentry",
   "pk": 3,
   "fields": {
-    "action_time": "2024-10-04T13:16:31.525Z",
+    "action_time": "2024-10-06T13:56:58.516Z",
     "user": 1,
     "content_type": 7,
-    "object_id": "2",
-    "object_repr": "ОБЩИЙ КЛАССИЧЕСКИЙ АРОМА МАССАЖ ТЕЛА С МАССАЖЕМ ГОЛОВЫ",
+    "object_id": "3",
+    "object_repr": "ОБЩИЙ КЛАССИЧЕСКИЙ АРОМАМАССАЖ ТЕЛА С МАССАЖЕМ ГОЛОВЫ",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -42,156 +42,52 @@
   "model": "admin.logentry",
   "pk": 4,
   "fields": {
-    "action_time": "2024-10-04T13:16:42.322Z",
+    "action_time": "2024-10-06T13:57:02.648Z",
     "user": 1,
-    "content_type": 7,
+    "content_type": 8,
     "object_id": "1",
-    "object_repr": "Окрашивание волос",
-    "action_flag": 3,
-    "change_message": ""
+    "object_repr": "Камильянов Альбертович",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 },
 {
   "model": "admin.logentry",
   "pk": 5,
   "fields": {
-    "action_time": "2024-10-04T13:17:55.451Z",
+    "action_time": "2024-10-06T13:57:06.886Z",
     "user": 1,
     "content_type": 7,
     "object_id": "3",
-    "object_repr": "ТАЙСКИЙ ТРАДИЦИОННЫЙ МАССАЖ СТОП",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "object_repr": "ОБЩИЙ КЛАССИЧЕСКИЙ АРОМАМАССАЖ ТЕЛА С МАССАЖЕМ ГОЛОВЫ",
+    "action_flag": 2,
+    "change_message": "[]"
   }
 },
 {
   "model": "admin.logentry",
   "pk": 6,
   "fields": {
-    "action_time": "2024-10-04T13:20:00.110Z",
+    "action_time": "2024-10-06T13:57:29.865Z",
     "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "КЛАССИЧЕСКИЙ МАССАЖ \"ТАЛАССО\"",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Арт Альбертович",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u043c\\u044f\"]}}]"
   }
 },
 {
   "model": "admin.logentry",
   "pk": 7,
   "fields": {
-    "action_time": "2024-10-04T13:22:40.885Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "ОБЩИЙ КЛАССИЧЕСКИЙ АРОМАМАССАЖ ТЕЛА С МАССАЖЕМ ГОЛОВЫ",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2024-10-04T13:42:46.956Z",
+    "action_time": "2024-10-06T13:57:43.257Z",
     "user": 1,
     "content_type": 8,
     "object_id": "1",
-    "object_repr": "Анзор Чумаев",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2024-10-04T13:44:45.115Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
     "object_repr": "Артем Камильянов",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2024-10-04T13:47:09.346Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "5",
-    "object_repr": "Окрашивание волос",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2024-10-04T13:47:10.807Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Анзор Чумаев",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2024-10-04T13:58:01.530Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Анзор Чумаев",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2024-10-04T13:58:06.901Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "5",
-    "object_repr": "Окрашивание волос",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2024-10-06T12:19:11.737Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "ТАЙСКИЙ ТРАДИЦИОННЫЙ МАССАЖ СТОП",
     "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2024-10-06T12:19:19.226Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "КЛАССИЧЕСКИЙ МАССАЖ \"ТАЛАССО\"",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u043c\\u044f\", \"\\u0424\\u0430\\u043c\\u0438\\u043b\\u0438\\u044f\"]}}]"
   }
 },
 {
@@ -522,8 +418,8 @@
   "model": "auth.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$870000$sKGToBEpbdZnTNWgzbUpJU$dm3jxfCAfwRhgUe1Rm5+QJnpCFP3MMBS828dpu+3Ddw=",
-    "last_login": "2024-10-02T11:42:33.872Z",
+    "password": "pbkdf2_sha256$870000$AcBFEYqvnSxvOaAoKP5Grg$OUWsMA1+98Kl7MnsT88yBM21jXRSGzn8SDULzfwb8lA=",
+    "last_login": "2024-10-06T13:54:30.037Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -531,7 +427,7 @@
     "email": "ad@ad.ru",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2024-10-02T11:42:10.885Z",
+    "date_joined": "2024-10-06T13:54:13.639Z",
     "groups": [],
     "user_permissions": []
   }
@@ -610,40 +506,40 @@
 },
 {
   "model": "sessions.session",
-  "pk": "jip4q3p6bqa439nuz50ng4wdsxwylsic",
+  "pk": "qv3hzxv5lopc1xjgi0uzdox2vlu95qij",
   "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hAKZQCX7nsGMgyjVA0kpV0Z765NutDtf-_9l4i4rSVunZc4Z3EWgzj9bgnpwXUH-Y711iS1ui5zkrsiD9rl1DI_L4f7d1Cwl28NA3jnfEZjLCavwgikHLMyhp216DWQc1lbtERAGUEFIIMJ9TWMGsT7A8WrN3k:1svxkX:NQeOVWL3iuXb1R9cYJP2UrWsA5FvuLPHAoaZHOWqVE8",
-    "expire_date": "2024-10-16T11:42:33.872Z"
+    "session_data": ".eJxVjDsOwjAQBe_iGlnxR-ssJT1nsHbXNg4gR4qTCnF3iJQC2jcz76UibWuNW89LnJI6K6NOvxuTPHLbQbpTu81a5rYuE-td0Qft-jqn_Lwc7t9BpV6_dQiMZhg9sM_BIOYsFpy3AzgrlIynEYGdAaEiaIsF9FgYkuPgrAvq_QHCmzch:1sxRiQ:_KasAWbhnR92FNLdu9RoqYBwqoP-kYHmg3W7PYFJ4OQ",
+    "expire_date": "2024-10-20T13:54:30.041Z"
   }
 },
 {
   "model": "cabinet.master",
-  "pk": 2,
+  "pk": 1,
   "fields": {
     "first_name": "Артем",
     "last_name": "Камильянов",
-    "contact_info": "г. Набережные Челны, просп. Автозаводский, д.31",
+    "contact_info": "г. Набережные Челны, просп. Автозаводский, д. 31",
     "phone": "89604512054",
     "photo": "Артем.jpg",
     "services": [
+      1,
       2,
-      3,
-      4
+      3
     ]
   }
 },
 {
   "model": "cabinet.service",
-  "pk": 2,
+  "pk": 1,
   "fields": {
-    "name": "ОБЩИЙ КЛАССИЧЕСКИЙ АРОМАМАССАЖ ТЕЛА С МАССАЖЕМ ГОЛОВЫ",
-    "description": "Продолжительность 80 минут. Общеклассический массаж представляет собой двухуровневый уход за кожей. Первый этап - крем-баттер увлажняет и питает кожу, восполняет недостаток влаги. Второй этап - массаж на масле, масло смягчает и запечатывает привнесенную в кожу влагу и удерживает ее.",
-    "price": "3500.00"
+    "name": "КЛАССИЧЕСКИЙ МАССАЖ \"ТАЛАССО\"",
+    "description": "Продолжительность 90 минут. В массаже используется 100% натуральный концентрат, полученный из морской воды. Он компенсирует дефицит магния, защищая баланс нервной системы, уменьшает признаки хронической усталости, нормализует качество сна. Применяется для снятия напряжения, болей, спазмов в мышцах.",
+    "price": "4000.00"
   }
 },
 {
   "model": "cabinet.service",
-  "pk": 3,
+  "pk": 2,
   "fields": {
     "name": "ТАЙСКИЙ ТРАДИЦИОННЫЙ МАССАЖ СТОП",
     "description": "Продолжительность 60 минут. Массаж ступней обеспечивает стимуляцию органов в наше организме, улучшает циркуляцию жидкостей в организме(кровотока и лимфотока).",
@@ -652,49 +548,24 @@
 },
 {
   "model": "cabinet.service",
-  "pk": 4,
-  "fields": {
-    "name": "КЛАССИЧЕСКИЙ МАССАЖ \"ТАЛАССО\"",
-    "description": "Продолжительность 90 минут. В массаже используется 100% натуральный концентрат, полученный из морской воды. Он компенсирует дефицит магния, защищая баланс нервной системы, уменьшает признаки хронической усталости, нормализует качество сна. Применяется для снятия напряжения, болей, спазмов в мышцах.",
-    "price": "4000.00"
-  }
-},
-{
-  "model": "cabinet.visit",
   "pk": 3,
   "fields": {
-    "name": "Тимур",
-    "phone": "+79600401588",
-    "master": 2,
-    "services": [
-      2,
-      3,
-      4
-    ]
+    "name": "ОБЩИЙ КЛАССИЧЕСКИЙ АРОМАМАССАЖ ТЕЛА С МАССАЖЕМ ГОЛОВЫ",
+    "description": "Продолжительность 80 минут. Общеклассический массаж представляет собой двухуровневый уход за кожей. Первый этап - крем-баттер увлажняет и питает кожу, восполняет недостаток влаги. Второй этап - массаж на масле, масло смягчает и запечатывает привнесенную в кожу влагу и удерживает ее.",
+    "price": "3500.00"
   }
 },
 {
   "model": "cabinet.visit",
-  "pk": 4,
+  "pk": 1,
   "fields": {
     "name": "Тимур",
     "phone": "+79600401588",
-    "master": 2,
+    "master": 1,
     "services": [
+      1,
       2,
       3
-    ]
-  }
-},
-{
-  "model": "cabinet.visit",
-  "pk": 5,
-  "fields": {
-    "name": "Тимур",
-    "phone": "+79600401588",
-    "master": 2,
-    "services": [
-      2
     ]
   }
 }
