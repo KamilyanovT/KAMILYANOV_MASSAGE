@@ -9,17 +9,17 @@ class AppointmentForm(forms.ModelForm):
         fields = ["name", "phone", "master", "services"]
         widgets = {
             "name": forms.TextInput(
-                attrs={"placeholder": "Имя", "class": "form-control"}
+                attrs={"id": "form", "placeholder": "Имя", "class": "form-control"}
             ),
             "phone": forms.TextInput(
-                attrs={
+                attrs={"id": "form",
                     "type": "tel",
                     "placeholder": "Номер телефона",
                     "class": "form-control",
                 }
             ),
-            "master": forms.Select(attrs={"class": "form-control"}),
-            "services": forms.SelectMultiple(attrs={"class": "form-control"}),
+            "master": forms.Select(attrs={"id": "form","class": "form-control"}),
+            "services": forms.SelectMultiple(attrs={"id": "form", "class": "form-control"}),
         }
 
     def __init__(self, *args, **kwargs):
