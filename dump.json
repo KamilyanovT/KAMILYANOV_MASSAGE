@@ -91,6 +91,19 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-10-09T13:44:55.183Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Артем Камильянов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f \\u043c\\u0430\\u0441\\u0442\\u0435\\u0440\\u0430\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -558,6 +571,119 @@
 {
   "model": "cabinet.visit",
   "pk": 1,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 2,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 3,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 4,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 5,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 6,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 7,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 8,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 9,
+  "fields": {
+    "name": "Тимур",
+    "phone": "+79600401588",
+    "master": 1,
+    "services": [
+      1
+    ]
+  }
+},
+{
+  "model": "cabinet.visit",
+  "pk": 10,
   "fields": {
     "name": "Тимур",
     "phone": "+79600401588",
