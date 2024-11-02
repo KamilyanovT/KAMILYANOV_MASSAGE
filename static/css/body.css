@@ -16,24 +16,46 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #2c3e50;
   margin-bottom: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 10px;
+
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #27ae60;
+  border-radius: 2px;
 }
 
 .navbar {
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 15px 0;
+  transition: all 0.3s ease;
 }
 
 .navbar-brand {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
-  color: #2c3e50;
-  transition: color 0.3s ease;
+  background: linear-gradient(45deg, #2c3e50, #27ae60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .navbar-brand:hover {
@@ -80,24 +102,38 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-success {
   background-color: #2ecc71;
-  border-color: #2ecc71;
+  /* border-color: #2ecc71; */
   transition: all 0.3s ease;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(39, 174, 96, 0.2);
 }
 
 .btn-success:hover {
   background-color: #27ae60;
-  border-color: #27ae60;
+  /* border-color: #27ae60; */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(39, 174, 96, 0.3);
 }
 
 #mastersCarouselIndicators {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 700px;
+  margin: 30px auto;
 }
 
 .carousel-item img {
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
 }
+
+.carousel-item:hover img {
+  transform: scale(1.02);
+}
+
 footer {
   background-color: rgba(255, 255, 255, 0.9);
   color: #000000;
@@ -107,6 +143,19 @@ footer {
 footer a {
   color: #000000;
   transition: color 0.3s ease;
+  text-decoration: none;
+  position: relative;
+}
+
+footer a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #27ae60;
+  transition: width 0.3s ease;
 }
 
 footer a:hover {
@@ -114,9 +163,14 @@ footer a:hover {
   text-decoration: none;
 }
 .map-container {
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.map-container:hover {
+  transform: translateY(-5px);
 }
 
 html {
